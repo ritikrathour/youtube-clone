@@ -1,0 +1,10 @@
+export const menu = "fas fa-bars"; 
+export const search = "fas fa-search";
+export const mic = "fas fa-microphone";
+export const bell = "fas fa-bell";
+export const check = "fas fa-check";
+export const downloade = "fas fa-download";
+export const share = "fas fa-share";
+export const angleDown = "fas fa-angle-down";
+export const thumbsUp = "fas fa-thumbs-up";
+export const thumbsDown = "fas fa-thumbs-down";

@@ -1,0 +1,16 @@
+.img__box
+,.line1,
+.line2,
+.circle{
+    background: linear-gradient(120deg, #e5e5e5 30%, #fefefe 38%,#e6e5e5 40%,#e5e5e5  48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    /* animation: animate 1.5s infinite;   */
+}
+@keyframes animate {
+    0%{
+        background-position: 100% 0; 
+    }100%{
+      background-position: -100% 0;
+    }
+}
