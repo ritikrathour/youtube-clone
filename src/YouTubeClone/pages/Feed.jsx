@@ -12,7 +12,7 @@ const Feed = ({ state }) => {
   const { homeData, loading } = useSelector(state => state); 
   const dispatch = useDispatch();
   useEffect(() => {
-     FetchDataFromAPI("search/?q=new").then((res) => {
+     FetchDataFromAPI('search/?q="new"').then((res) => {
       dispatch(getHomeData(res?.contents))
     }); 
   }, [])
